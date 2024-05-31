@@ -8,4 +8,4 @@ RUN apk add --no-cache curl
 COPY config.txt /app/config.txt
 
 # Use CMD to echo "Hello, World!" when the container starts
-CMD ["echo", "Hello, World!"]
+CMD ["echo", "it's ready!"]
